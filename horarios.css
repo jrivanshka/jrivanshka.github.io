@@ -196,13 +196,17 @@ body{
 
 .mmo, .tgao, .tipp{
     width: 1200px;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 1.4rem;
     background-color: #fff;
     border-radius: 5px;
     position: relative;
     top: 1.5rem;
+}
+
+.container-inner h2{
+    text-align: start;
+    margin-left: 20px;
 }
