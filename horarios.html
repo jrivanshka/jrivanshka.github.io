@@ -3,25 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="horarios.css">
         <title>Epet Explorer</title>
     </head>
     <body>
 
+    <nav class="navbar">
         <div class="navbar ">
-            <h2>Epet Explorer</h2>
+            <h2>EPET EXPLORER</h2>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="horarios.html">Horarios</a></li>
+                <li><a style="font-weight: bold;" href="horarios.html">Horarios</a></li>
                 <li><a href="#">Eventos</a></li>
                 <li><a href="#">Diseños Curriculares</a></li>
                 <li><a href="#">Trámites</a></li>
-                <li><a href="#">Sitio EPET</a></li>
+                <li><a href="https://epet4iguazu.edu.ar/portal/">Sitio EPET</a></li>
     
             </ul>
             <!--Asmr Prog | botón de hire me-->
         </div>
+    </nav>
 
         <div class="main">
 
@@ -35,47 +38,46 @@
                 </div>
 
                 <div class="container-inner">
-
+                    <!-- Sección de botones desplegables, las imágenes de los horarios estarán ubicadas en sources/horarios, y estarán nombradas como cada curso, por ejemplo: "1ro_A.png"-->
                     <section id="MMO" class="schedule-section">
                         <div class="mmo">
                             <h2>Maestro Mayor de Obras</h2>
-                            <button onclick="showSchedule('horario_mmo.png')">1ro A</button>
-                            <button onclick="showSchedule('horario_mmo.png')">1ro B</button>
-                            <button onclick="showSchedule('horario_mmo.png')">1ro C</button>
-                            <button onclick="showSchedule('horario_mmo.png')">2do A</button>
-                            <button onclick="showSchedule('horario_mmo.png')">2do C</button>
-                            <button onclick="showSchedule('horario_mmo.png')">3ro A</button>
-                            <button onclick="showSchedule('horario_mmo.png')">3ro D</button>
-                            <button onclick="showSchedule('horario_mmo.png')">4to A</button>
-                            <button onclick="showSchedule('horario_mmo.png')">5to A</button>
-                            <button onclick="showSchedule('horario_mmo.png')">6to A</button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">1ro A <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">1ro B <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">1ro C <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">2do A <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">2do C <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">3ro A <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">3ro D <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">4to A <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">5to A <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">6to A <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
                         </div>
                     </section>
 
                     <section id="TGAO" class="schedule-section">
                         <div class="tgao">
                             <h2>Tecnico en Gestión y Administración de las Organizaciones</h2>
-                            <button onclick="showSchedule('horario_mmo.png')">1ro D</button>
-                            <button onclick="showSchedule('horario_mmo.png')">1ro E</button>
-                            <button onclick="showSchedule('horario_mmo.png')">2do B</button>
-                            <button onclick="showSchedule('horario_mmo.png')">2do D</button>
-                            <button onclick="showSchedule('horario_mmo.png')">3ro B</button>
-                            <button onclick="showSchedule('horario_mmo.png')">4to B</button>
-                            <button onclick="showSchedule('horario_mmo.png')">5to B</button>
-                            <button onclick="showSchedule('horario_mmo.png')">6to B</button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">1ro E <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">2do B <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">2do D <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">3ro B <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">4to B <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">5to B <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">6to B <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
                     </section>
 
                     <section id="TIPP" class="schedule-section">
                         <div class="tipp">
                             <h2>Técnico en Informática Profesional y Personal</h2>
-                            <button onclick="showSchedule('horario_mmo.png')">1ro F</button>
-                            <button onclick="showSchedule('horario_mmo.png')">1ro G</button>
-                            <button onclick="showSchedule('horario_mmo.png')">2do E</button>
-                            <button onclick="showSchedule('horario_mmo.png')">2do F</button>
-                            <button onclick="showSchedule('horario_mmo.png')">3ro E</button>
-                            <button onclick="showSchedule('horario_mmo.png')">4to E</button>
-                            <button onclick="showSchedule('horario_mmo.png')">5to E</button>
-                            <button onclick="showSchedule('horario_mmo.png')">6to E</button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">1ro F <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">1ro G <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">2do E <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">2do F <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">3ro E <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">4to E <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">5to E <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
+                            <button onclick="showSchedule('sources/horarios/horario_example.png', this)" class="button-with-icon">6to E <img src="sources/icons/arrow.svg" alt="Desplegar" class="button-icon"></button>
                         </div>
                     </section>
                 </div>

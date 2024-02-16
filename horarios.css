@@ -18,11 +18,18 @@ body{
 }
 
 .navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #163f69;
     display: flex;
     align-items: center ;
     justify-content: space-between;
     height: 80px;
     padding: 0 50px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navbar h2{
@@ -76,6 +83,7 @@ body{
 /*Main Stt*/
 
 .main{
+    padding-top: 60px;
     height: 640px;
     display: flex;
     flex-direction: column;
@@ -209,4 +217,18 @@ body{
 .container-inner h2{
     text-align: start;
     margin-left: 20px;
+}
+
+.button-with-icon {
+    position: relative;
+}
+
+.button-icon {
+    position: absolute;
+    margin-right: 10px;
+    top: 50%;
+    right: 5px; /* Ajusta la posición del icono a la derecha */
+    transform: translateY(-50%);
+    width: 30px; /* Ajusta el tamaño del icono según sea necesario */
+    height: auto; /* Para mantener la proporción del icono */
 }
