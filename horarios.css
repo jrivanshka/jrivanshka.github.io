@@ -83,39 +83,15 @@ body{
 /*Main Stt*/
 
 .main{
-    padding-top: 60px;
-    height: 640px;
-    display: flex;
-    flex-direction: column;
+    padding-top: 150px;
+    display: block;
     align-items: center;
     justify-content: center;
 }
 .main h2{
-    font-size: 32px;
+    font-size: 28px;
     color: #245a90;
     font-weight: 500px;
-}
-.main p.sub1{
-    font-size: 32px;
-    font-weight: bold;
-    color: #9caebf;
-    margin-top: 15px;
-    text-transform: uppercase;
-}
-
-.main p.sub2{
-    width: 800px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
-    color: #fff;
-    margin-top: 20px;
-}
-
-.main .subtitle {
-    width: 600px; /* Establece el ancho máximo del subtítulo */
-    text-align: center; /* Centra el texto horizontalmente */
-    margin: 0 auto; /* Centra el elemento horizontalmente dentro de su contenedor */
 }
 
 /*Buttons Style*/
@@ -129,27 +105,30 @@ body{
 
 .container-inner{
     padding: 20px;
-    width: 500px ;
+    width: auto;
     margin: 20px;
     align-items: center;
     max-height: 30vh;
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 /* Estilos para el contenedor de botones */
 .btn-container {
-    margin-bottom: 20px;
+    width: 100%;
     text-align: center;
-    justify-content: space-between;
+}
+
+.orientation-buttons h2{
+    font-size: 30px;
+    color: #fff;
 }
 
 .orientation-buttons button{
-    width: 25%;    
+    width: 26%;    
     justify-content: space-between;
     margin: 15px ;
-    padding: 8px 16px;
+    padding: 8px 20px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 3px solid #333;
     border-radius: 5px;
     background-color: #fff;
     color: #333;
@@ -158,7 +137,8 @@ body{
 }
 
 .orientation-buttons button:hover {
-    background-color: #333;
+    font-weight: bold;
+    background-color: #4a4f55;
     color: #fff;
 }
 
@@ -182,7 +162,7 @@ body{
     border: 2px solid #333;
     border-radius: 5px;
     background-color: #fff;
-    color: #333;
+    color: #163f69;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     width: calc(100% - 30px); /* Restar el margen para ocupar casi todo el contenedor */
@@ -190,7 +170,7 @@ body{
 }
 
 .schedule-section button:hover {
-    background-color: #333;
+    background-color: #163f69;
     color: #fff;
 }
 
