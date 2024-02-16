@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Navbar Style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #163f69;
+}
+
+.navbar{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navbar h2{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a{
+    color: #9da0a3;
+}
+.navbar ul li:first-child a{
+    align-items: start; 
+}
+
+.navbar ul li:last-child a{
+    margin: 0;
+}
+
+.page-btn{
+    background: #245a90;
+    padding: 6px 30px;
+    border: 4;
+    border-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: color 0.3s ease;
+}
+
+.page-btn:hover{
+    color: #fff;
+}
+
+/* Main Page Style*/
+
+.main{
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main p.title{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500px;
+}
+.main p.sub1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #9caebf;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.main p.sub2{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.main .subtitle {
+    width: 600px; /* Establece el ancho máximo del subtítulo */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0 auto; /* Centra el elemento horizontalmente dentro de su contenedor */
+}
+
+.main img{
+    width: 450px;
+    
+    margin-top: 15px;
+}
