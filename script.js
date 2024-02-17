@@ -1,8 +1,11 @@
+
 /*Horarios*/
 function navigateToSection(sectionId) {
     // Navegar a la sección correspondiente
     const section = document.getElementById(sectionId);
-    section.scrollIntoView({ behavior: 'smooth' });
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
 }
 
 function showSchedule(imageUrl, button) {
@@ -22,7 +25,7 @@ function showSchedule(imageUrl, button) {
     image.classList.add('schedule-image');
     scheduleContainer.appendChild(image);
 
-    // Insertar el contenedor después del botón clickeado
+    // Insertar el contenedor después de clickear el botón
     button.parentNode.insertBefore(scheduleContainer, button.nextSibling);
 }
 
