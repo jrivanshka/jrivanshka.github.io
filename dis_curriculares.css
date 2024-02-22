@@ -75,6 +75,63 @@ body{
 .main{
     display: block;
     box-sizing: border-box;
-    padding: 110px 0px 3%;
+    margin: 110px 0px 3%;
 }
 
+.main h2{
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.container{
+    align-items: center;
+}
+
+.container .info{
+    border: solid 2px #9da0a3;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container .head-info{
+    text-align: center  ;
+    font-weight: 500;
+}
+
+.container p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400 ;
+}
+
+.main .container span {
+    font-weight: bold;
+}
+
+.links-container{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 10px;
+}
+
+
+.links-container button{text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    border: solid 2px #131c25;
+    border-radius: 15px;
+    background: #fff;
+    padding: 10px 30px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.container button:hover{
+    background-color: #973e3e;
+    color:#fff;
+}
