@@ -8,6 +8,15 @@ function navigateToSection(sectionId) {
     }
 }
 
+/*scripts para activar/desactivar el menú hamburguesa */
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.navbar-menu').classList.toggle('active');
+    });
+});
+
+
+
 function showSchedule(imageUrl, button) {
     // Verificar si ya hay un contenedor desplegado
     const existingContainer = button.nextElementSibling;
