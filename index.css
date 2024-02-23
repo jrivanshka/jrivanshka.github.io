@@ -121,7 +121,7 @@ body{
 
 .main{
     background-color: #163f69;
-    padding: 40px;
+    padding: 40px 0px 15px;
     margin-top: 70px;
     display: block;
     flex-direction: column;

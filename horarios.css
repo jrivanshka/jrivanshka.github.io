@@ -136,11 +136,12 @@ body{
 /*Main Stt*/
 
 .main{
-    padding-top: 150px;
+    padding: 100px 0px 0px;
     display: block;
     align-items: center;
     justify-content: center;
 }
+
 .main h2{
     font-size: 28px;
     color: #245a90;

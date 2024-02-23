@@ -127,6 +127,7 @@ body{
     display: block;
     box-sizing: border-box;
     margin: 110px 0px 3%;
+    padding-bottom: 15px;
 }
 
 .main h2{
