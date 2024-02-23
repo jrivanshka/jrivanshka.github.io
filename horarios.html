@@ -13,18 +13,20 @@
     <body>
         <header>
             <nav class="navbar">
-                <div class="navbar ">
+    
+                <div class="navbar-brand">
                     <h2>EPET EXPLORER</h2>
-                    <ul>
+                </div>
+                <div class="menu-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+                    <ul class="navbar-menu">
                         <li><a href="index.html">Inicio</a></li>
-                        <li><a style="font-weight: bold;" href="horarios.html">Horarios</a></li>
+                        <li><a style="font-weight: bold;"href="horarios.html">Horarios</a></li>
                         <li><a href="eventos.html">Eventos</a></li>
                         <li><a href="dis_curriculares.html">Diseños Curriculares</a></li>
-                        <li><a href="#">Trámites</a></li>
                         <li><a href="https://epet4iguazu.edu.ar/portal/">Sitio EPET</a></li>
-            
                     </ul>
-                    <!--Asmr Prog | botón de hire me-->
                 </div>
             </nav>
         </header>
@@ -33,16 +35,16 @@
 
             <div class="container">
                 <div class="btn-container">
+                    <h2>Selecciona tu Orientación:</h2>
                     <!-- Botones de orientaciones -->
                     <div class="orientation-buttons">
-                        <h2>Selecciona tu Orientación:</h2>
                         <button onclick="navigateToSection('MMO')">MMO</button>
                         <button onclick="navigateToSection('TGAO')">TGAO</button>
                         <button onclick="navigateToSection('TIPP')">TIPP</button>
-                </div>
+                    </div>
 
+                <!-- Sección de botones desplegables, las imágenes de los horarios estarán ubicadas en sources/horarios, y estarán nombradas como cada curso, por ejemplo: "1ro_A.png"-->
                 <div class="container-inner">
-                    <!-- Sección de botones desplegables, las imágenes de los horarios estarán ubicadas en sources/horarios, y estarán nombradas como cada curso, por ejemplo: "1ro_A.png"-->
                     <section id="MMO" class="schedule-section">
                         <div class="mmo">
                             <h2>Maestro Mayor de Obras</h2>
